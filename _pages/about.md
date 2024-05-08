@@ -55,6 +55,8 @@ observations about large pre-trained time-series models.
 <div style="text-align: center;">
     <a href="https://arxiv.org/abs/2402.03885" style="background-color: #EEEEEE; color: black; padding: 10px 20px; text-decoration: none; display: inline-block; margin: 4px 2px; cursor: pointer; border-radius: 12px;">arXiv</a>
     <a href="https://anonymous.4open.science/r/BETT-773F/" style="background-color: #EEEEEE; color: black; padding: 10px 20px; text-decoration: none; display: inline-block; margin: 4px 2px; cursor: pointer; border-radius: 12px;">GitHub</a>
+    <a href="https://huggingface.co/AutonLab/MOMENT-1-large" style="background-color: #EEEEEE; color: black; padding: 10px 20px; text-decoration: none; display: inline-block; margin: 4px 2px; cursor: pointer; border-radius: 12px;">Model Weights</a>
+    <a href="https://huggingface.co/datasets/AutonLab/Timeseries-PILE" style="background-color: #EEEEEE; color: black; padding: 10px 20px; text-decoration: none; display: inline-block; margin: 4px 2px; cursor: pointer; border-radius: 12px;">Time-series PILE</a>
 </div>
 
 ---
