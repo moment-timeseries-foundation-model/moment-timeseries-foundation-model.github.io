@@ -54,7 +54,7 @@ observations about large pre-trained time-series models.
 
 <div style="text-align: center;">
     <a href="https://arxiv.org/abs/2402.03885" style="background-color: #EEEEEE; color: black; padding: 10px 20px; text-decoration: none; display: inline-block; margin: 4px 2px; cursor: pointer; border-radius: 12px;">arXiv</a>
-    <a href="https://anonymous.4open.science/r/BETT-773F/" style="background-color: #EEEEEE; color: black; padding: 10px 20px; text-decoration: none; display: inline-block; margin: 4px 2px; cursor: pointer; border-radius: 12px;">GitHub</a>
+    <a href="https://github.com/moment-timeseries-foundation-model/moment" style="background-color: #EEEEEE; color: black; padding: 10px 20px; text-decoration: none; display: inline-block; margin: 4px 2px; cursor: pointer; border-radius: 12px;">GitHub</a>
     <a href="https://huggingface.co/AutonLab/MOMENT-1-large" style="background-color: #EEEEEE; color: black; padding: 10px 20px; text-decoration: none; display: inline-block; margin: 4px 2px; cursor: pointer; border-radius: 12px;">Model Weights</a>
     <a href="https://huggingface.co/datasets/AutonLab/Timeseries-PILE" style="background-color: #EEEEEE; color: black; padding: 10px 20px; text-decoration: none; display: inline-block; margin: 4px 2px; cursor: pointer; border-radius: 12px;">Time-series PILE</a>
 </div>
@@ -168,17 +168,11 @@ Comprehensive benchmarks to evaluate time-series foundation models on diverse da
 </div>
 
 ```bibtex
-@misc{goswami2024moment,
-  title={MOMENT: A Family of Open Time-series Foundation Models}, 
+@inproceedings{goswami2024moment,
+  title={MOMENT: A Family of Open Time-series Foundation Models},
   author={Mononito Goswami and Konrad Szafer and Arjun Choudhry and Yifu Cai and Shuo Li and Artur Dubrawski},
+  booktitle={ICML},
   year={2024},
-  eprint={2402.03885},
-  archivePrefix={arXiv},
-  primaryClass={cs.LG},
-  abstract={We introduce MOMENT, a family of open-source foundation models for general-purpose time-series analysis. Pre-training large models on time-series data is challenging due to (1) the absence of a large and cohesive public time-series repository, and (2) diverse time-series characteristics which make multi-dataset training onerous. Additionally, (3) experimental benchmarks to evaluate these models, especially in scenarios with limited resources, time, and supervision, are still in their nascent stages. To address these challenges, we compile a large and diverse collection of public time-series, called the Time-series Pile, and systematically tackle time-series-specific challenges to unlock large-scale multi-dataset pre-training. Finally, we build on recent work to design a benchmark to evaluate time-series foundation models on diverse tasks and datasets in limited supervision settings. Experiments on this benchmark demonstrate the effectiveness of our pre-trained models with minimal data and task-specific fine-tuning. Finally, we present several interesting empirical observations about large pre-trained time-series models. Our code is available anonymously at anonymous.4open.science/r/BETT-773F/.},
-  url={https://arxiv.org/abs/2402.03885},
-  html={https://arxiv.org/abs/2402.03885},
-  pdf={2402.03885.pdf},
-  selected={true},
+  abstract={We introduce MOMENT, a family of open-source foundation models for general-purpose time-series analysis. Pre-training large models on time-series data is challenging due to (1) the absence of a large and cohesive public time-series repository, and (2) diverse time-series characteristics which make multi-dataset training onerous. Additionally, (3) experimental benchmarks to evaluate these models, especially in scenarios with limited resources, time, and supervision, are still in their nascent stages. To address these challenges, we compile a large and diverse collection of public time-series, called the Time-series Pile, and systematically tackle time-series-specific challenges to unlock large-scale multi-dataset pre-training. Finally, we build on recent work to design a benchmark to evaluate time-series foundation models on diverse tasks and datasets in limited supervision settings. Experiments on this benchmark demonstrate the effectiveness of our pre-trained models with minimal data and task-specific fine-tuning. Finally, we present several interesting empirical observations about large pre-trained time-series models. Our code is available anonymously at anonymous.4open.science/r/BETT-773F/.}
 }
 ```
