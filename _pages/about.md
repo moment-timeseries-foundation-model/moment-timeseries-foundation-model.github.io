@@ -66,7 +66,7 @@ observations about large pre-trained time-series models.
       The Time-series Pile</h1>
 </div>
 
-Limiting factor for pre-training large time-series models from scratch was the lack of a large cohesive public time-series data repositories. Therefore, we compiled The Time-series Pile, a large collection of publicly available data from diverse domains, ranging from healthcare to engineering to finance. The Time-series Pile comprises of over 5 public time-series databases, from several diverse domains for pre-training and evaluation
+<!-- Limiting factor for pre-training large time-series models from scratch was the lack of a large cohesive public time-series data repositories. Therefore, we compiled The Time-series Pile, a large collection of publicly available data from diverse domains, ranging from healthcare to engineering to finance. The Time-series Pile comprises of over 5 public time-series databases, from several diverse domains for pre-training and evaluation
 
 <p align="center">
   <img src="assets/img/PILE-table.png" alt="Description of image" style="max-width: 100%; height: auto;">
@@ -75,8 +75,17 @@ Limiting factor for pre-training large time-series models from scratch was the l
 <div style="text-align: center; font-family: Arial, sans-serif;">
     <h1 style="font-size: 12px; margin-top: -10px; margin-bottom: 22px;">
       An overview of the datasets and their parameters comprising the Time-series PILE. </h1>
-</div>
+</div> -->
 
+We compiled a large collection of publicly available datasets from diverse domains into the Time Series Pile. It has 13 unique domains of data, which includes 20.085 GB worth of 13M unique time series and 1.23 billion timestamps (including channels). The data has been collated from more than 5 task-specific, widely-used public repositories resulting in a large number of time series spanning diverse domains, and time series characteristics such as lengths, amplitudes, and temporal resolutions. Some details about these public repositories are as follows:
+
+- **Informer long-horizon forecasting datasets** ([Zhou et al., 2021](https://ojs.aaai.org/index.php/AAAI/article/view/17325)) is a collection of 9 datasets that are widely used to evaluate long-horizon forecasting performance: 2 hourly and minutely subsets of the [Electricity Transformer Temperature (ETT)](https://ojs.aaai.org/index.php/AAAI/article/view/17325), [Electricity](https://archive.ics.uci.edu/dataset/321/electricityloaddiagrams20112014), [Traffic](http://pems.dot.ca.gov/), [Weather](https://www.bgc-jena.mpg.de/wetter/), [Influenza-like Illness (ILI)](https://gis.cdc.gov/grasp/fluview/fluportaldashboard.html), and [Exchange-rate](https://arxiv.org/abs/1703.07015).
+
+- **Monash time series forecasting archive** ([Godahewa et al., 2021)](https://openreview.net/forum?id=wEc1mgAjU-)) is a collection of 58 publicly available short-horizon forecasting datasets with a total of over 100K time series, spanning a variety of domains and temporal resolutions.
+
+- **UCR/UEA classification archive** ([Dau et al., 2018](https://www.cs.ucr.edu/~eamonn/time_series_data_2018/)) comprises of 159 time series datasets which are frequently used to benchmark classification algorithms. These datasets belong to seven different categories (Image Outline, Sensor Readings, Motion Capture, Spectrographs, ECG, Electric Devices, and Simulated Data), and vary substantially in terms of the number of classes and the size of the training set.
+
+- **TSB-UAD anomaly benchmark** ([Paparrizos et al., 2022b](https://www.vldb.org/pvldb/vol15/p1697-paparrizos.pdf)) is a recent collection of 1980 univariate time series with labeled anomalies from 18 anomaly detection datasets proposed over the past decade. This collection includes both synthetic and real-world time series originating from a wide range of sources such as the human body, spaceships, environment, and web serves.
 
 ---
 
